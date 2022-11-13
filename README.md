@@ -19,8 +19,9 @@ train.txt に追加学習用のデータを用意させて学習。
 
 
 ## 課題
-tcmalloc: large alloc エラーが出てるので、Colab
-"FutureWarning:" This dataset will be removed from the library soon, preprocessing should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/main/examples/pytorch/language-modeling/run_mlm.py FutureWarning,
+- tcmalloc: large alloc エラー。どこかでColab のRAM拡張でお試し予定。
+
+- "FutureWarning:" This dataset will be removed from the library soon, preprocessing should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/main/examples/pytorch/language-modeling/run_mlm.py FutureWarning,
 への対応。
 https://nikkie-ftnext.hatenablog.com/entry/replace-linebylinetextdataset-datasets-library
 
